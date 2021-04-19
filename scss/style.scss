@@ -1,0 +1,244 @@
+body {
+    font-family: Thabit, "Courier New", Courier, monospace;
+    color: #ffffff;
+    font-size: 1em;
+    margin: 0;
+
+    /*Header*/
+    header {
+    width: 100%;
+    height: 100px;
+    background-color: #0E402E;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+
+    #t-logo img {
+        width: 45%;
+        margin: 20px;
+    }
+
+    /*Nav*/
+        nav {
+            width: 50%;
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                padding: 0;
+            
+                li {
+                    color: white;
+                    display: inline;  
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+
+  .hero-image {
+        width: 100%;
+        height: 100vh;
+        background-image: url("/img/hero_img.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .hero-content {
+     
+            h3 {
+                color: white;
+                font-size: 2em;
+                font-weight: 100;
+                text-align: center;
+            }
+
+            /*Services*/
+            .service-info {
+                width: 680px;
+                height: 80px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                justify-content: space-around;
+                border-radius: 10px;
+
+                #services {
+                    font-family: Thabit, "Courier New", Courier, monospace;
+                    width: 300px;
+                    height: 72px;
+                    border: none;
+                    padding-left: 20px;
+                    margin-right: 20px;
+                }
+                
+                #address {
+                    font-family: Thabit, "Courier New", Courier, monospace;
+                    width: 300px;
+                    height: 72px;
+                    border: none;
+                    padding: 0;
+                    padding-left: 20px;
+                    margin-right: 20px;
+                }
+                
+                .button {
+                    font-family: Thabit, "Courier New", Courier, monospace;
+                    width: 160px;
+                    height: 72px;
+                    color: white;
+                    background-color: #826D59;
+                    border: none;
+                }
+            }
+        }
+    }
+
+    .about-content {
+        width: 90%;
+        background-image: url("/img/content_img.jpg");
+        background-size: cover;
+        margin: 0 auto;
+        margin-top: -80px;
+        padding: 100px;
+        box-sizing: border-box;
+        
+
+        .about-topic {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h2 {
+                font-size: 2em;
+                font-weight: 100;
+            }
+    
+            button {
+                font-family: Thabit, "Courier New", Courier, monospace;
+                font-size: 1em;
+                color: #0E402E;;
+                width: 160px;
+                height: 45px;
+                background: #ffffff;
+                border: none;  
+            } 
+        }
+        
+        p {
+            line-height: 2em;
+        }
+    }
+
+    .service-content {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 10px;
+
+        .content-left {
+            width: 44.5%;
+            min-height: 360px;
+            max-height: 1200px;
+            background: #295135;
+            margin-left: 5%;
+            padding: 45px;
+            box-sizing: border-box;
+
+            .content-topic {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            
+                h2 {
+                    font-size: 2em;
+                    font-weight: 100;
+                    display: inline-block;
+                }
+
+                button {
+                    font-family: Thabit, "Courier New", Courier, monospace;
+                    font-size: 1em;
+                    color: #295135;
+                    width: 160px;
+                    height: 45px;
+                    background: #ffffff;
+                    border: none;  
+                } 
+            }
+            
+            p {
+                line-height: 2em;
+                display: inline-block;
+            }
+        }
+
+        .content-right {
+            width: 44.5%;
+            min-height: 360px;
+            max-height: 1200px;
+            background: #5A674F;
+            margin-right: 5%;
+            padding: 45px;
+            box-sizing: border-box;
+
+            .content-topic {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                h2 {
+                    font-size: 2em;
+                    font-weight: 100;
+                    display: inline-block;
+                }
+
+                button {
+                    font-family: Thabit, "Courier New", Courier, monospace;
+                    font-size: 1em;
+                    color: #5A674F;
+                    width: 160px;
+                    height: 45px;
+                    background: #ffffff;
+                    border: none;  
+                } 
+            }
+
+            p {
+                line-height: 2em;
+                display: inline-block;
+            }
+        }
+    }
+
+    footer {
+        width: 100%;
+        height: 600px;
+        background-image: url("/img/footer_img.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            padding: 0;
+        }
+
+        .social-icon {
+            display: inline;
+        }
+        
+    }
+}
