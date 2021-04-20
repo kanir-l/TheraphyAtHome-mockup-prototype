@@ -73,21 +73,11 @@ body {
                 justify-content: space-around;
                 border-radius: 10px;
 
-                #services {
+                #services, #address {
                     font-family: Thabit, "Courier New", Courier, monospace;
                     width: 300px;
                     height: 72px;
                     border: none;
-                    padding-left: 20px;
-                    margin-right: 20px;
-                }
-                
-                #address {
-                    font-family: Thabit, "Courier New", Courier, monospace;
-                    width: 300px;
-                    height: 72px;
-                    border: none;
-                    padding: 0;
                     padding-left: 20px;
                     margin-right: 20px;
                 }
@@ -327,13 +317,6 @@ body {
 
         .hero-image {
             .hero-content {
-                h3 {
-                    color: white;
-                    font-size: 2em;
-                    font-weight: 100;
-                    text-align: center;
-                }
-
                 /*Services*/
                 .service-info {
                     width: 100%;
@@ -350,6 +333,7 @@ body {
                         width: 300px;
                         height: 72px;
                         border: none;
+                        margin-right: 0;
                     }
                     
                     #address {
@@ -359,8 +343,9 @@ body {
                         border: none;
                         padding-left: 20px;
                         box-sizing: border-box;
+                        margin-right: 0;
                     }
-                    
+                  
                     .button {
                         font-family: Thabit, "Courier New", Courier, monospace;
                         width: 160px;
